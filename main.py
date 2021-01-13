@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 import json
+import os
 from datetime import datetime
 from keep_alive import keep_alive
 
@@ -134,4 +135,4 @@ async def on_command_error(ctx, error):
     raise error
 
 keep_alive()
-bot.run('Nzg3OTAwODIwNDg5ODk1OTY2.X9br0g.PqZ9fj7TbDWp2PncePOtRv4bJgg')
+bot.run(os.environ.get('BOT_TOKEN'))
