@@ -1,0 +1,9 @@
+`n!help` - Help command to show all the commands.
+
+`n!start_notes` - Enters you into the notes database.
+
+`n!note <note>` - Takes note of the specified note.
+
+`n!del_note <note_number>` - Deletes the specified note. You can say **all** if you want to clear all notes.
+
+`n!notes` - Shows you your notes.
