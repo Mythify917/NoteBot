@@ -3,7 +3,6 @@ from discord.ext import commands
 import json
 import os
 from datetime import datetime
-from keep_alive import keep_alive
 
 def prefix(bot, message):
     if not message.guild:
@@ -134,5 +133,4 @@ async def on_command_error(ctx, error):
     
     raise error
 
-keep_alive()
 bot.run(os.environ.get('BOT_TOKEN'))
